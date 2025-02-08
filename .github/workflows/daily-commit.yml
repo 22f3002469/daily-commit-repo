@@ -11,7 +11,6 @@ permissions:
 jobs:
   commit:
     runs-on: ubuntu-latest
-    name: Commit changes to repository by 22f3002469@ds.study.iitm.ac.in  # Include email in the job name
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
